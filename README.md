@@ -1,10 +1,10 @@
 # letsencrypt-zimbra
 Zimbra Letsencrypt Deploy and Certificate Renew
 
-These scripts are based on zimbra Official Letsencrypt deployment guide
-LINK: https://wiki.zimbra.com/wiki/Installing_a_LetsEncrypt_SSL_Certificate
-CA plus Root CA
-LINK: https://www.identrust.com/certificates/trustid/root-download-x3.html
+<p>These scripts are based on zimbra Official Letsencrypt deployment guide
+LINK: https://wiki.zimbra.com/wiki/Installing_a_LetsEncrypt_SSL_Certificate</p>
+<p>CA plus Root CA
+LINK: https://www.identrust.com/certificates/trustid/root-download-x3.html</p>
 
 ### Very important! All scripts are tested on zimbra 8.6 and Centos 7 ###
 
