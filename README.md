@@ -9,7 +9,7 @@ LINK: https://www.identrust.com/certificates/trustid/root-download-x3.html
 ### Very important! All scripts are tested on zimbra 8.6 and Centos 7 ###
 
 ### How to use deploy and renew scripts ####
-# 1 Download all file from my repository to your /root/ directory #
+<p>1 Download all file from my repository to your /root/ directory </p>
 # 2 chmod +x on cert_renew.sh and cert_deploy.sh  #
 # 3 Make sure you have downloaded CA plus Root CA file "ca_plus_root_ca" #
 
