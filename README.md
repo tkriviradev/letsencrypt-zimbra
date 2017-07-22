@@ -10,12 +10,12 @@ LINK: https://www.identrust.com/certificates/trustid/root-download-x3.html
 
 ### How to use deploy and renew scripts ####
 <p>1 Download all file from my repository to your /root/ directory </p>
-# 2 chmod +x on cert_renew.sh and cert_deploy.sh  #
-# 3 Make sure you have downloaded CA plus Root CA file "ca_plus_root_ca" #
+<p>2 chmod +x on cert_renew.sh and cert_deploy.sh </p>
+<p>3 Make sure you have downloaded CA plus Root CA file "ca_plus_root_ca" </p>
 
-# 4 run cert_deploy.sh (If you don't have certbot installed script will install it for you from repository) #
-# 5 after that you can all renewal script to crontab #
-# 5.1 30 2 * * 1 /root/cert_renew.sh >> /var/log/le-renew.log #
+<p>4 run cert_deploy.sh (If you don't have certbot installed script will install it for you from repository) </p>
+<p>5 after that you can all renewal script to crontab </p>
+<p>5.1 30 2 * * 1 /root/cert_renew.sh >> /var/log/le-renew.log </p>
 
 
 
