@@ -1,7 +1,8 @@
 #!/bin/bash
 
 servername=$(hostname -f)
-getdomains="-d $servername -d bss.mail.alfafinance.bg"
+getdomains="-d $servername -d mail.domain.com"
+getemail="support@google.com"
 
 yum install certbot -y
 
@@ -10,7 +11,7 @@ yum install certbot -y
 /sbin/runuser -l zimbra -c '/opt/zimbra/bin/zmproxyctl stop'
 /sbin/runuser -l zimbra -c '/opt/zimbra/bin/zmmailboxdctl stop'
 
-/usr/bin/certbot certonly --agree-tos --non-interactive --email support@styxsolutions.net --standalone $getdomains
+/usr/bin/certbot certonly --agree-tos --non-interactive --email $getemail --standalone $getdomains
 
 ##### fix directory issues #####
 echo "fix directory issues"
